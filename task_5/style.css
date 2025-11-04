@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.left-column {
+    background-color: #e8f5e9;
+    padding: 20px;
+    flex: 1; 
+    border-radius: 8px; 
+}
+
+.right-column {
+    background-color: #e3f2fd;
+    padding: 20px;
+    flex: 1; 
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.left-column h2 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background: #d5dcdc;
+  color: #3a4a49;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background: #8fbbbb;
+  padding: 16px 0;
+  border-radius: 0 0 12px 12px;
+}
+
+.logo {
+  font-size: 1.8em;
+  color: #f9fdfd;
+}
+
+nav ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 28px;
+}
+
+nav ul.menu li {
+  position: relative;
+}
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: #f9fdfd;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 8px 14px;
+  border-radius: 6px;
+  display: block;
+}
+
+nav ul.menu li a:hover {
+  background-color: #729e9e;
+}
+
+nav ul.submenu, nav ul.submenu-level {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #adcdcd;
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none; 
+}
+
+nav ul.submenu-level {
+  top: 0;
+  left: 100%;
+}
+
+nav li.dropdown:hover > ul.submenu, nav li.dropdown-submenu:hover > ul.submenu-level {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  top: 0;
+  left: 100%;
+  list-style-type: none
+}
+
+nav ul.submenu li a, nav ul.submenu-level li a {
+  font-weight: normal;
+}
+
+.intro {
+  max-width: 720px;
+  margin: 80px auto 0;
+  padding: 40px;
+  background: #dbe3d7cc;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+.intro button {
+  background: #8cbaba;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.intro button:hover {
+  background: #729e9e;
+}

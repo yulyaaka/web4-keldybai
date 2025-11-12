@@ -13,7 +13,7 @@
 
 .right-column {
     background-color: #e3f2fd;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     flex: 1; 
     border-radius: 8px; 
     display: flex;
@@ -25,14 +25,15 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    padding-top: 20px;
 }
 
-.left-column h2 {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-}
 h2 {
     text-align: center;
+    padding-top: 20px;
+}
+.left-column h2 {
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
 }

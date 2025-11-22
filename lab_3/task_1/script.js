@@ -1,5 +1,6 @@
 const button = document.getElementById('myButton');
+const header = document.getElementById('myHeader');
 
 button.addEventListener('click', function() {
-  button.innerText = 'Заголовок изменен!';
+  header.textContent = 'Заголовок изменен!';
 });

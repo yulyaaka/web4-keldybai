@@ -1,5 +1,9 @@
-.visibility{
+.container {
     width: 200px;
     height: 100px;
     background-color: lightblue;
+}
+
+.hidden {
+    display: none;
 }

@@ -8,7 +8,7 @@
 <body>
 <?php
 function random($length) {
-    $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     $n = strlen($chars);
     $pwd = '';
     for ($i = 0; $i < $length; $i++) {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Калькулятор</title>
+    <title>Lab_5</title>
 </head>
 <body>
 <form action="" method="post">
@@ -22,7 +22,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $num2 = $_POST["num2"];
     $operation = $_POST["operation"];
     $result = "";
-
     switch ($operation) {
         case 'add':
             $result = $num1 + $num2;
